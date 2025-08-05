@@ -1,0 +1,36 @@
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+credentials.json
+token.json
+# ❌ Ignore secrets and generated files
+.env
+.env.local
+credentials.json
+
+# ❌ Ignore output files
+output/
+*.pdf
+*.txt
+*.json
+
+# ❌ Ignore OS/editor/system clutter
+.DS_Store
+node_modules/
+__pycache__/
+*.log
+*.zip
+
+echo "output/**/*.mp4" >> .gitignore
+echo "vector/chroma_db/" >> .gitignore
+
+# Ignore large video files and DB blobs
+output/**/*.mp4
+vector/chroma_db/output/
+vector/chroma_db/
+output/
+vector/chroma_db/
