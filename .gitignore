@@ -33,4 +33,4 @@ output/**/*.mp4
 vector/chroma_db/output/
 vector/chroma_db/
 output/
-vector/chroma_db/
+vector/chroma_db/vector/config.py
